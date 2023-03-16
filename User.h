@@ -16,7 +16,6 @@ private:
 
 public:
 	User(const std::string& login, const std::string& password, const std::string& name) : _login(login), _password(password), _name(name) {}
-	virtual ~User() {};
 	const std::string& GetLogin() const { return _login; }
 	const std::string& GetName() const { return _name; }
 	const std::string& GetPassword() const {return _password;}

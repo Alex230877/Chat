@@ -10,7 +10,6 @@ private:
 
 public:
 	Message(const std::string& sender, const std::string& recipient, const std::string& text) : _sender(sender), _recipient(recipient), _text(text) {}
-	virtual ~Message() {}
 	const std::string& GetSender() const {return _sender;}
 	const std::string& GetRecipient() const {return _recipient;}
 	const std::string& GetText() const {return _text;}
